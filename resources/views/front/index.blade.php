@@ -129,11 +129,11 @@
                 </div>
             </div>
             <div class="photo col-12 col-lg-5" data-aos="animate__fadeOutUp"
-                data-aos-anchor-placement="bottom-bottom" data-aos-offset="520"><img src="/images/輕鋼構/IMG_0571.JPG" alt=""></div>
+                data-aos-anchor-placement="bottom-bottom" data-aos-offset="520"><img src="/images/輕鋼構/IMG_0571.jpg" alt=""></div>
         </div>
         <div class="row d-flex flex-wrap-reverse align-items-center justify-content-center px-3  content-margin">
             <div class="box col-12 col-lg-5" data-aos="animate__fadeOutUp"
-                data-aos-anchor-placement="bottom-bottom" data-aos-offset="500"><img src="/images/便利性/IMG_0176.JPG" alt=""></div>
+                data-aos-anchor-placement="bottom-bottom" data-aos-offset="500"><img src="/images/便利性/IMG_0176.jpg" alt=""></div>
             <div class="col-12 col-lg-7" data-aos="animate__fadeOutUp" data-aos-anchor-placement="bottom-bottom"
                 data-aos-offset="600">
                 <div class="row justify-content-end mt-2 px-lg-3 px-3">
