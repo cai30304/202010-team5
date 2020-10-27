@@ -1,0 +1,30 @@
+.title{
+  font-size: 48px;
+}
+.contact_info{
+  padding:0 120px 0 40px;
+  font-size: 18px;
+  line-height: 32px;
+  font-weight: bolder;
+}
+
+.contact_info .lable_required{
+ color: #ff2f2f;
+}
+
+.contact_info input{
+  border-color: #c4c4c4;
+  /* border-bottom:solid 2px #c4c4c4; */
+}
+
+.contact_info textarea{
+  border-color: #c4c4c4;
+}
+
+.btn_info{
+  margin:30px 120px 0 40px;
+}
+.btn_info a{
+  
+  color:black ;
+}

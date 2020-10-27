@@ -1,0 +1,217 @@
+@import "style.scss";
+
+* {
+    box-sizing: border-box;
+    // margin: 0;
+    // padding: 0;
+}
+
+// 璋璋請看
+// /* Base CSS */
+
+
+
+header {
+    #section01 {
+        .container-fluid {
+            // height: calc(100vh - 80px);
+            padding:50px 20px;
+            // padding-right: 20px;
+
+            @media (min-width: $media-md) {
+                padding: 50px 60px;
+            }
+
+            @media (min-width: $media-lg) {
+                padding: 90px 90px 50px 90px;
+            }
+
+            @media (min-width: $media-xl) {
+                padding: 100px 150px 100px 150px;
+            }
+
+            .contact_us{
+                @media (min-width: $media-md) {
+                    padding: auto;
+                }
+
+                @media (min-width: $media-lg) {
+                    padding-right: 50px;
+                }
+
+                @media (min-width: $media-xl) {
+                    padding-right: 100px;
+                }
+
+            }
+
+            // background-color: gray;
+            .title_group {
+                //這是啥
+                // height: calc(100vh - 80px);
+                .title {
+                    height: 60%;
+                    // background-color: darkseagreen;
+
+                    .title_box {
+                        // height: 50%;
+                        .title_text {
+                            font-size: 64px;
+                            // background-color: dimgray;
+                        }
+                        .sec1_line {
+                            margin-left: 30px;
+                            width: 52px;
+                            height: 2px;
+                            background-color: black;
+                        }
+                        .sub_text {
+                            font-size: 24px;
+                        }
+                    }
+                }
+                .photo {
+                    // background-color: darkslategray;
+                    width: 10%;
+                    // position: relative;
+
+                    @media (min-width: $media-md) {
+                        width: 30%;
+                    }
+
+                    @media (min-width: $media-lg) {
+                        width: 65%;
+                    }
+
+                    @media (min-width: $media-xl) {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+}
+
+//按鈕樣式設定
+.btn{
+    margin: auto 15px;
+}
+
+.contact-center{
+    @media (max-width: $media-sm) {
+        display: flex;
+        justify-content: center;
+        flex-direction: wrap;
+    }
+}
+
+.call_us {
+    .container {
+        
+
+
+        .py-50 {
+            padding-top: 30px;
+            padding-bottom: 30px;
+        }
+
+        .title_grp {
+            padding-left: 15px;
+        }
+
+        .content_grp {
+            // margin: 20px auto auto;
+            padding-left: 20px;
+            padding-top:20px;
+        }
+
+        .info_grp {
+            padding-top: 15px;
+            @media (min-width: $media-lg) {
+                padding-top: 30px;
+            }
+        }
+
+        .info {
+            padding-top: 15px;
+        }
+
+        .title_number {
+            font-size: 32px;
+            border-top: 2px solid black;
+        }
+        .content_title {
+            font-size: 36px;
+        }
+
+        .address_title {
+            border-bottom: 1px solid black;
+        }
+
+        .group_content {
+            .sub_title {
+                font-size: 24px;
+                color: $brand-gray;
+            }
+
+            .btn_contact_us {
+                width: 160px;
+                height: 34px;
+                border: 1px solid black;
+                border-radius: 24px;
+                text-align: center;
+                line-height: 34px;
+            }
+        }
+        .google_map {
+            // google地圖大小RWD
+
+            .rwd-map {
+                display: block;
+                position: relative;
+                overflow: hidden;
+                height: 0;
+                padding: 0;
+                padding-bottom: 75%;
+            }
+            .rwd-map iframe {
+                position: absolute;
+                height: 100%;
+                width: 100%;
+                left: 0;
+                top: 0;
+            }
+
+            position: relative;
+            .google_map_btn {
+                width: 160px;
+                height: 34px;
+                border: 1px solid black;
+                border-radius: 24px;
+                text-align: center;
+                line-height: 34px;
+                position: absolute;
+                bottom: 15px;
+                // left: 220px;
+                background-color: white;
+                cursor: pointer;
+            }
+        }
+    }
+    .super_line {
+        // height: 150px;
+        border-bottom: 1px solid $brand-gray;
+    }
+}
+
+#customer_form {
+    .container {
+        .title_number {
+            font-size: 32px;
+            border-top: 2px solid black;
+        }
+        .content_title {
+            font-size: 36px;
+        }
+    }
+}

@@ -1,0 +1,93 @@
+@import 'style.scss';
+
+*{
+    box-sizing: border-box;
+}
+
+#bnav{
+    height: 60px;
+    font-size: 16px;
+    nav{
+        height: 60px;
+        // line-height: 10px;
+        width: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 50;
+        box-shadow: 0 0 10px 2px black;
+
+
+    
+        #navbarNavDropdown{
+
+            @media (max-width: $media-lg){
+                border: 1px solid $brand-black;
+                background-color: white;
+            }
+
+            .navbar-nav{
+                @media (max-width: $media-lg){
+                    padding-right: 20px;
+                    
+                }
+            }
+
+            
+            .dropdown-menu{
+                
+
+                @media (max-width: $media-lg){
+                    position: absolute;
+                    top: -10%;
+                    left: -180px;
+                }
+                
+            }
+            
+        }
+        .dropdown-toggle{
+            position: relative;
+            &::after{
+                @media (max-width: $media-lg){
+                    position: absolute;
+                    top: 27px;
+                    left: -18px;
+                    
+                }
+            }
+        }
+
+
+    }
+
+}
+
+
+
+footer{
+    background-color: $brand-darkgray;
+    color: white;
+    padding: 10px 0;
+    font-size: 12px;
+    line-height: 20px;
+    min-height: 100px;
+    .footer_logo{
+        // height: 120px;
+        width: 100%;
+        text-align: center;  
+    }
+    .footer_address{
+        .footer_map{
+            background-color: #11B6CC;
+            border-radius: 12px;
+            text-align: center;
+            width: 80px;
+            // padding: ;
+        }
+           
+    }
+    .footer_email{
+        line-height: 40px;      
+    }
+}

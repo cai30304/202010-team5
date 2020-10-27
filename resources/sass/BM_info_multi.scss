@@ -1,0 +1,133 @@
+*{
+    box-sizing: border-box;
+}
+.Building_materials_mutipage{
+    min-height: calc(100vh - 160px);
+    .title_swiper{
+        position: relative;
+        .swiper-container {
+            width: 100%;
+            height: 80px;
+    
+            .swiper-slide {
+                text-align: center;
+                font-size: 18px;
+                background: #11B6CC;
+                height: 40px;
+                // width: 20px;
+                @media (max-width: 576px) { 
+                    font-size: 14px;
+                }
+                
+          
+                /* Center slide text vertically */
+                display: -webkit-box;
+                display: -ms-flexbox;
+                display: -webkit-flex;
+                display: flex;
+                -webkit-box-pack: center;
+                -ms-flex-pack: center;
+                -webkit-justify-content: center;
+                justify-content: center;
+                -webkit-box-align: center;
+                -ms-flex-align: center;
+                -webkit-align-items: center;
+                align-items: center;
+    
+            }
+    
+            .swiper-pagination-bullets{
+                bottom: 0px;
+            }
+            
+        }
+    
+        .swiper-button-prev1{
+            position: absolute;
+            top: 40px;
+            left: -35px;
+        }
+    
+        .swiper-button-next1{
+            position: absolute;
+            top: 40px;
+            right: -35px;
+        }
+      
+    
+    }
+    
+    .content_group{
+        min-height: 620px;
+
+    
+        .swiper_box{
+            height: 620px;
+            width: 100%;
+            .swiper-container {
+                width: 100%;
+                // height: 350px;
+                margin-left: auto;
+                margin-right: auto;
+              }
+        
+              .swiper-slide {
+                background-size: cover;
+                background-position: center;
+              }
+          
+              .gallery-top {
+                height: 80%;
+                width: 100%;
+              }
+          
+              .gallery-thumbs {
+                height: 20%;
+                box-sizing: border-box;
+                padding: 10px 0;
+              }
+          
+              .gallery-thumbs .swiper-slide {
+                height: 100%;
+                opacity: 0.4;
+              }
+          
+              .gallery-thumbs .swiper-slide-thumb-active {
+                opacity: 1;
+              }
+        
+        }
+        
+        .text_group{
+            // height: 220px;
+            margin-bottom: 35px;
+    
+            @media (max-width:768px) {
+                height: unset;
+            }
+            .text_title_line{
+                h2{
+                    border-bottom: 2px solid;
+                }
+            }
+    
+            #sub_title{
+                color: red;
+            }
+        }
+    
+        .mini_photo_group{
+            .mini_photos{
+                .miniphoto{
+                    height: 84px;
+                    width: 80px;
+                    // background-color: red;
+                    background-position: center;
+                    background-size: cover;
+                    margin-bottom: 10px;
+                }
+            }
+        }
+    }
+}
+

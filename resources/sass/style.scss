@@ -1,0 +1,154 @@
+//字體設定
+$font-primary: "Noto Sans TC", sans-serif;
+$font-secondary: "Poiret One", cursive;
+
+//顏色
+$brand-primary: #11b6cc;
+
+$brand-black: #0a0a0a;
+$brand-darker: #202020;
+$brand-darkgray: #3a3939;
+$brand-gray: #5a5a5a;
+$brand-light-gray: #f4f4f4;
+
+.bg-light-gray {
+    background-color: $brand-light-gray;
+}
+.bg-gray{
+    background-color: $brand-gray;
+}
+.color-light-gray{
+    color: $brand-light-gray;
+}
+
+//RWD大小
+$media-sm: 576px;
+$media-md: 768px;
+$media-lg: 992px;
+$media-xl: 1200px;
+
+// ===========================================
+
+// 文字排列方式
+
+// 樣式基本元素
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: $font-primary;
+    color: $brand-darker;
+    font-size: 14px;
+    line-height: 2.5;
+    // @media screen and (max-width: $screen-md) {
+    //     font-size: 16px;
+    // }
+        .title-line-height{
+            line-height: 1.5;
+        }
+
+}
+
+a {
+    color: $brand-primary;
+    // @include transition(0.5s);
+    &:hover,
+    &:active,
+    &:focus {
+        color: $brand-primary;
+        outline: none;
+        text-decoration: none !important;
+    }
+}
+
+h1 {
+    // font-size: 64px;
+    font-weight: 500;
+    color: $brand-black;
+}
+
+h2 {
+    // font-size: 48px;
+    font-weight: 500;
+    color: $brand-darker;
+}
+
+h3 {
+    // font-size: 36px;
+    font-weight: 500;
+    color: $brand-darkgray;
+}
+
+h4 {
+    font-size: 24px;
+    font-weight: 500;
+    color: $brand-gray;
+}
+
+.title-number {
+    font-family: $font-secondary;
+    font-size: 28px;
+    border-top: $brand-darker solid 1px;
+}
+
+.title-number_none_line {
+    font-family: $font-secondary;
+    font-size: 28px;
+}
+
+//margin和padding
+.margin-auto {
+    margin: auto;
+}
+.padding-auto {
+    padding: auto;
+}
+
+.padding-0 {
+    padding: 0;
+}
+
+main {
+    section {
+
+        .row {
+            //讓md尺寸時，東西可以水平置中
+            .md-center {
+                @media (max-width: $media-lg) {
+                    display: flex;
+                    justify-content: center;
+                }
+            }
+
+            //讓md尺寸時，東西可以垂直置中
+            .md-hight-center {
+                @media (max-width: $media-lg) {
+                    display: flex;
+                    align-items: center;
+                }
+            }
+        }
+
+        img {
+            width: 100%;
+        }
+        // margin-bottom: 100px;
+
+       
+
+        .line-hight-mid {
+            line-height: 1.2;
+        }
+    }
+}
+
+// flex系列
+
+.auto-justify-content-around{
+    display: flex;
+    justify-content: space-around;
+}
+
+

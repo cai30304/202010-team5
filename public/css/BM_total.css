@@ -1,0 +1,114 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#BM_total .container-fluid {
+  width: 100%;
+  height: calc(100vh - 150px);
+}
+
+@media (max-width: 576px) {
+  #BM_total .container-fluid h1 {
+    font-size: 20px;
+  }
+  #BM_total .container-fluid h2 {
+    font-size: 18px;
+  }
+}
+
+#BM_total .container-fluid .row .title {
+  text-align: center;
+  height: 96px;
+  line-height: 96px;
+}
+
+#BM_total .container-fluid .row .BM_photo {
+  height: calc(100vh - 256px);
+  position: relative;
+  color: white;
+}
+
+@media (max-width: 991.98px) {
+  #BM_total .container-fluid .row .BM_photo {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+
+#BM_total .container-fluid .row .BM_photo .BM_content {
+  width: calc(100% / 6);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  position: relative;
+  z-index: 2;
+  background-size: cover;
+  background-position: center;
+}
+
+@media (max-width: 991.98px) {
+  #BM_total .container-fluid .row .BM_photo .BM_content {
+    height: calc(100% / 6);
+    width: 100%;
+  }
+}
+
+#BM_total .container-fluid .row .BM_photo .BM_content span {
+  letter-spacing: 20px;
+  margin-top: 10px;
+}
+
+#BM_total .container-fluid .row .BM_photo .BM_content:hover {
+  width: 30%;
+  z-index: 4;
+  cursor: pointer;
+}
+
+@media (max-width: 991.98px) {
+  #BM_total .container-fluid .row .BM_photo .BM_content:hover {
+    width: 100%;
+  }
+}
+
+#BM_total .container-fluid .row .BM_photo .BM_content:hover ~ .mask {
+  background-color: rgba(0, 0, 0, 0.815);
+  z-index: 3;
+}
+
+#BM_total .container-fluid .row .BM_photo .BM_content .BM_text {
+  height: 35%;
+  width: 100%;
+  -webkit-writing-mode: vertical-lr;
+      -ms-writing-mode: tb-lr;
+          writing-mode: vertical-lr;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+#BM_total .container-fluid .row .BM_photo .BM_content .BM_text h2 {
+  color: white;
+}
+
+@media (max-width: 991.98px) {
+  #BM_total .container-fluid .row .BM_photo .BM_content .BM_text {
+    width: 35%;
+    height: 100%;
+    -webkit-writing-mode: unset;
+        -ms-writing-mode: unset;
+            writing-mode: unset;
+    margin: auto;
+  }
+}
+
+#BM_total .container-fluid .row .BM_photo .mask {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  pointer-events: none;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+/*# sourceMappingURL=BM_total.css.map */

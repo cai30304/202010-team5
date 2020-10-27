@@ -1,0 +1,224 @@
+@media (max-width: 576px) {
+  h1 {
+    font-size: 20px;
+  }
+  h2 {
+    font-size: 18px;
+  }
+  h3 {
+    font-size: 16px;
+  }
+  h4 {
+    font-size: 14px;
+  }
+  html {
+    font-size: 14px;
+  }
+}
+
+#Building_materials_page .container-fluid {
+  min-height: calc(100vh - 160px);
+}
+
+#Building_materials_page .container-fluid .title_swiper {
+  position: relative;
+}
+
+#Building_materials_page .container-fluid .title_swiper .swiper-container {
+  width: 100%;
+  height: 80px;
+}
+
+#Building_materials_page .container-fluid .title_swiper .swiper-container .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #11B6CC;
+  height: 40px;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+@media (max-width: 576px) {
+  #Building_materials_page .container-fluid .title_swiper .swiper-container .swiper-slide {
+    font-size: 14px;
+  }
+}
+
+#Building_materials_page .container-fluid .title_swiper .swiper-container .swiper-pagination-bullets {
+  bottom: 0px;
+}
+
+#Building_materials_page .container-fluid .title_swiper .swiper-button-prev1 {
+  position: absolute;
+  top: 40px;
+  left: -35px;
+}
+
+#Building_materials_page .container-fluid .title_swiper .swiper-button-next1 {
+  position: absolute;
+  top: 40px;
+  right: -35px;
+}
+
+@media (max-width: 768px) {
+  #Building_materials_page .container-fluid .BM_content {
+    margin-top: 0;
+  }
+}
+
+#Building_materials_page .container-fluid .BM_content .photo {
+  margin-right: 62px;
+}
+
+@media (max-width: 998px) {
+  #Building_materials_page .container-fluid .BM_content .photo {
+    margin-right: 20px;
+  }
+}
+
+#Building_materials_page .container-fluid .BM_content .photo .big_photo {
+  height: 650px;
+  width: 650px;
+  background-position: center;
+  background-size: cover;
+  border-radius: 50%;
+  margin: 100px 0 62px 0;
+  position: relative;
+}
+
+@media (max-width: 998px) {
+  #Building_materials_page .container-fluid .BM_content .photo .big_photo {
+    height: 450px;
+    width: 450px;
+  }
+}
+
+@media (max-width: 480px) {
+  #Building_materials_page .container-fluid .BM_content .photo .big_photo {
+    width: 300px;
+    height: 300px;
+  }
+}
+
+#Building_materials_page .container-fluid .BM_content .photo .big_photo .swiper-container {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+#Building_materials_page .container-fluid .BM_content .photo .big_photo .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  border-radius: 50%;
+  background-size: cover;
+  background-position: center;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+#Building_materials_page .container-fluid .BM_content .photo .big_photo .line_circle {
+  position: absolute;
+  bottom: 0%;
+  right: -32%;
+  z-index: 1;
+}
+
+@media (max-width: 998px) {
+  #Building_materials_page .container-fluid .BM_content .photo .big_photo .line_circle {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  #Building_materials_page .container-fluid .BM_content .text_photo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+#Building_materials_page .container-fluid .BM_content .text_photo .text_group {
+  margin-top: 50px;
+  width: 280px;
+}
+
+@media (max-width: 998px) {
+  #Building_materials_page .container-fluid .BM_content .text_photo .text_group {
+    margin-top: 0px;
+  }
+}
+
+@media (max-width: 576px) {
+  #Building_materials_page .container-fluid .BM_content .text_photo .text_group {
+    width: 230px;
+  }
+}
+
+@media (max-width: 375px) {
+  #Building_materials_page .container-fluid .BM_content .text_photo .text_group {
+    width: 160px;
+  }
+}
+
+#Building_materials_page .container-fluid .BM_content .text_photo .text_group h2 {
+  border-bottom: 2px solid black;
+}
+
+#Building_materials_page .container-fluid .BM_content .text_photo .text_group #sub_title {
+  color: red;
+}
+
+#Building_materials_page .container-fluid .BM_content .text_photo .text_group #info {
+  padding-right: 20px;
+}
+
+#Building_materials_page .container-fluid .BM_content .text_photo .small_photo_box {
+  height: 35%;
+}
+
+@media (max-width: 998px) {
+  #Building_materials_page .container-fluid .BM_content .text_photo .small_photo_box {
+    height: 25%;
+  }
+}
+
+#Building_materials_page .container-fluid .BM_content .text_photo .small_photo_box .small_photo {
+  width: 200px;
+  height: 200px;
+  background-color: cornflowerblue;
+  border-radius: 50%;
+  margin: auto;
+  background-position: center;
+  background-size: cover;
+}
+
+@media (max-width: 576px) {
+  #Building_materials_page .container-fluid .BM_content .text_photo .small_photo_box .small_photo {
+    width: 130px;
+    height: 130px;
+  }
+}
+
+@media (max-width: 480px) {
+  #Building_materials_page .container-fluid .BM_content .text_photo .small_photo_box .small_photo {
+    width: 110px;
+    height: 110px;
+  }
+}
+/*# sourceMappingURL=BM_info.css.map */

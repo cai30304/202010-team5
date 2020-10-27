@@ -1,0 +1,117 @@
+*{
+    box-sizing: border-box;
+}
+
+#BM_total{
+    .container-fluid{
+        width: 100%;
+        height: calc(100vh - 150px);
+
+        // color: white;
+        @media (max-width: 576px) {
+            h1{
+                font-size: 20px;
+            }
+            h2{
+                font-size: 18px;
+            }
+        }
+
+
+        .row{
+
+            .title{
+                // font-size: 64px;
+                text-align: center;
+                height: 96px;
+                line-height: 96px;
+            }
+
+            .BM_photo{
+                height: calc(100vh - 256px);
+                // height: 100%;
+                position: relative;
+                color: white;
+                @media (max-width: 991.98px){
+                    flex-wrap: wrap;
+                }
+                
+                .BM_content{
+                    width: calc(100% / 6);
+                    // background-color: green;
+                    // font-size: 24px;
+                    transition: 0.5s;
+                    position: relative;
+                    z-index: 2;
+                    background-size: cover;
+                    background-position: center;
+                    
+                    
+
+                    @media (max-width: 991.98px) {
+                        height: calc(100% / 6);
+                        width: 100%;
+                        // background-size: contain;
+                        
+                    }
+
+                    span{
+                        // font-size: 48px;
+                        letter-spacing: 20px;
+                        margin-top: 10px;
+
+                    }
+
+                    &:hover{
+                        width: 30%;
+                        z-index: 4;
+                        cursor: pointer;
+                        @media (max-width: 991.98px) {
+                            width: 100%;         
+                        }
+                    }
+
+                    &:hover~.mask{
+                        background-color: rgba(0, 0, 0, 0.815);
+                        z-index: 3;
+                    }
+    
+                    // &:nth-child(2n-1){
+                    //     // background-color: darkkhaki;
+                    // }
+
+                    .BM_text{
+                        height: 35%;
+                        width: 100%;
+                        writing-mode: vertical-lr;
+                        background-color: rgba(0, 0, 0, 0);
+                        h2{
+                            color: white;
+                        }
+                        @media (max-width: 991.98px) {
+                            width: 35%;
+                            height: 100%;
+                            writing-mode: unset;
+                            margin: auto;
+                        }
+                    }
+                }
+                
+                .mask{
+                    height: 100%;
+                    width: 100%;
+                    background-color: rgba(0, 0, 0, 0);
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    z-index: 1;
+                    pointer-events: none;
+                    transition: 0.5s;
+                    // pointer-events: none;
+                }
+            }
+
+        }
+
+    }
+}

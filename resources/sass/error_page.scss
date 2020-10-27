@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+}
+
+#error_page{
+
+    .container-fluid{
+        width: 100%;
+        height: calc(100vh - 160px);
+        background-color: gray;
+        color: white;
+        background-position: center;
+        background-size: cover;
+
+        // .row{
+            .title{
+                text-align: center;
+                font-size: 200px;
+                // height: 400px;
+                line-height: 200px;
+                @media (max-width: 576px) {
+                    font-size: 100px;
+                }
+
+
+            }
+            .content{
+                text-align: center;
+                font-size: 64px;
+                @media (max-width: 576px) {
+                    font-size: 32px;
+                }
+                // margin-bottom: 200px;
+            }
+            .btn{
+                width: 141px;
+                height: 34px;
+                font-size: 14px;
+                color: white;
+                border: 2px solid white;
+                text-align: center;
+            }
+        // }
+
+    }
+}
