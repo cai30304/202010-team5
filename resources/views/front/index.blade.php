@@ -224,17 +224,17 @@
                 <div class="photo d-flex justify-content-center" style="background-image: url(./images/東濃檜木/IMG_9904-1.png);">東濃檜木</div>
             </div>
             <div class="col-lg-4 col-6 p-1">
-                <div class="photo d-flex justify-content-center" style="background-image: url(./images/日本竹地板/floor.jpg);">竹地板</div>
+                <div class="photo d-flex justify-content-center" style="background-image: url(./images/日本竹地板/IMG_5713.png);">竹地板</div>
             </div>
             <div class="col-lg-4 col-6 p-1">
-                <div class="photo d-flex justify-content-center" style="background-image: url(./images/屋瓦/20120821150118.png);">屋瓦
+                <div class="photo d-flex justify-content-center" style="background-image: url(./images/屋瓦/20120821150118.jpg);">屋瓦
                 </div>
             </div>
             <div class="col-lg-4 col-6 p-1">
                 <div class="photo d-flex justify-content-center" style="background-image: url(./images/隔熱毯/07.jpg);">隔熱毯</div>
             </div>
             <div class="col-lg-4 col-6 p-1">
-                <div class="photo d-flex justify-content-center" style="background-image: url(./images/棟飾/225.png);">棟飾</div>
+                <div class="photo d-flex justify-content-center" style="background-image: url(./images/棟飾/225.jpg);">棟飾</div>
             </div>
 
         </div>
