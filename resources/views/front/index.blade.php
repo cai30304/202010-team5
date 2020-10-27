@@ -83,7 +83,7 @@
                 </a>
             </div>
         </div>
-    </div>  
+    </div>
 </div>
 @endsection
 
@@ -97,8 +97,8 @@
             <div class="text col-lg-4 col-12 pt-3" data-aos="animate__fadeOutUp" data-aos-anchor-placement="bottom-bottom"
                 data-aos-offset="600">
                 <div class="row justify-content-end align-items-center px-lg-3">
-                    <h3 class="sec02_title_num title-number_none_line">01</h3>
-                    <h2 class="sec02_title">綠建築介紹</h2>
+                    <h3 class="title-number">01 </h3>
+                    <h2 class="sec02_title ml-3">綠建築介紹</h2>
                     <div class="sec02_content mt-2 ">
                         <p>
                             &emsp;&emsp;&emsp;使用日本鋼構工法作為屋體的骨架，提供每個連接處強而有力的鍵結，同時具備高耐震性，屋體的外層則採高斷熱工法，讓屋子有夏天隔熱冬天保溫的功能，屋內裝有24小時內外換氣系統，可過濾室外空氣送入乾淨氣體，就像人體的肺一樣呼吸，讓你在屋內的空氣就像森林一樣清新，且有別於傳統房屋建造時間，我們的建築從施作開始到完成只要120天左右，不到傳統水泥建築的一半，甚至更短!但又具備以上的條件，安全又舒適。
@@ -111,18 +111,18 @@
 </div>
 
 <div class="section03">
-    <div class="container mb-4">
-        <hr>
+    <div class="container">
+
         <div class="row sec03_title_box px-3">
-            <h3 class="sec03_title_num title-number_none_line">02</h3>
+            <h3 class="title-number">02</h3>
             <div class="w-100"></div>
             <h2 class="sec03_title">綠建築特色</h2>
         </div>
 
-        <div class="group_content row flex-wrap align-items-center px-3">
+        <div class="group_content row flex-wrap align-items-center content-margin">
             <div class="col-12 col-lg-7" data-aos="animate__fadeOutUp" data-aos-anchor-placement="bottom-bottom"
                 data-aos-offset="580">
-                <div class="row justify-content-end">
+                <div class="row justify-content-end px-3">
                     <h3 class="px-lg-3 p-0">輕鋼構</h3>
                     <div class="content"><p>&emsp;&emsp;&emsp;全家節能綠建築採用新發明的Ｃ型鋼閉鎖連接盒的組裝工法，跟日本目前所採用自攻螺絲固定工法以及台灣傳統焊接工法不同，Ｃ型鋼閉鎖連接盒靠著螺絲跟拉帽的強力拉拔能力，牢固地扣住每根樑柱，即使遇到強烈地震也難以鬆脫。
                     </p></div>
@@ -131,12 +131,12 @@
             <div class="photo col-12 col-lg-5" data-aos="animate__fadeOutUp"
                 data-aos-anchor-placement="bottom-bottom" data-aos-offset="520"><img src="/images/輕鋼構/IMG_0571.JPG" alt=""></div>
         </div>
-        <div class="row d-flex flex-wrap-reverse align-items-center justify-content-center px-3">
+        <div class="row d-flex flex-wrap-reverse align-items-center justify-content-center px-3  content-margin">
             <div class="box col-12 col-lg-5" data-aos="animate__fadeOutUp"
                 data-aos-anchor-placement="bottom-bottom" data-aos-offset="500"><img src="/images/便利性/IMG_0176.JPG" alt=""></div>
             <div class="col-12 col-lg-7" data-aos="animate__fadeOutUp" data-aos-anchor-placement="bottom-bottom"
                 data-aos-offset="600">
-                <div class="row justify-content-end mt-2 px-lg-3 p-0">
+                <div class="row justify-content-end mt-2 px-lg-3 px-3">
                     <h3 class="mb-4">便利性</h3>
                     <div class="content"><p>&emsp;&emsp;&emsp;傳統的RC工法蓋一間別墅動輒一年以上，加上近年來建築業嚴重缺工，工期通常是一延再延。而全家節能綠建築從地基完成後算起約120個工作天即可完工。
                         傳統的RC房屋如果要增建則必須動用到大型的機具，每天敲敲打打影響生活品質，而且施工期長。全家節能綠建築的工法具有絕佳的延伸性，只要將增建面的外牆板拆除，再鎖上Ｃ型鋼閉鎖連接盒後，就能輕輕鬆鬆進行增建工程，不僅對於本身的生活起居影響小，而且也不會造成左鄰右舍的困擾。
@@ -151,7 +151,7 @@
             </div>
             <div class="w-100"></div>
             <a href="/GreenBuilding" id="sec3-link" class="ml-auto mb-3">
-                <h4>LEARN MORE</h4>
+                <span>LEARN MORE</span>
                 <div class="line"></div>
                 <div class="line2"></div>
             </a>
@@ -163,7 +163,7 @@
     <!-- <div class="box"></div> -->
     <div class="sec04_group container-lg container-fluid">
         <div class="row justify-content-center py-5">
-            <div class="sec4-title-number title-number_none_line">
+            <div class="title-number">
                 <h2>03</h2>
             </div>
             <div class="w-100"></div>
@@ -207,8 +207,8 @@
 <div class="section05">
     <div class="container">
         <div class="row p-4">
-            <div class="sec5-title-number title-number_none_line">
-                <h2>04</h2>
+            <div class="title-number">
+                <h3>04</h3>
             </div>
             <div class="w-100"></div>
             <div class="sub_title p-0">
@@ -216,30 +216,32 @@
             </div>
         </div>
         <div class="row photo_group justify-content-around px-2">
-            <div class="col-lg-4 col-6 p-1">
-                <div class="photo" style="background-image: url(/images/陶板/3.png);"></div>
+
+            <div class="col-lg-4 col-6 p-1 ">
+                <div class="photo d-flex justify-content-center" style="background-image: url(./images/陶板/3.png);" >陶板達人</div>
             </div>
             <div class="col-lg-4 col-6 p-1">
-                <div class="photo" style="background-image: url(/images/東濃檜木/IMG_9904-1.png);"></div>
+                <div class="photo d-flex justify-content-center" style="background-image: url(./images/東濃檜木/IMG_9904-1.png);">東濃檜木</div>
             </div>
             <div class="col-lg-4 col-6 p-1">
-                <div class="photo" style="background-image: url(/images/日本竹地板/IMG_5713.png);"></div>
+                <div class="photo d-flex justify-content-center" style="background-image: url(./images/日本竹地板/floor.jpg);">竹地板</div>
             </div>
             <div class="col-lg-4 col-6 p-1">
-                <div class="photo" style="background-image: url(/images/屋瓦/20120821150118.jpg);">
+                <div class="photo d-flex justify-content-center" style="background-image: url(./images/屋瓦/20120821150118.png);">屋瓦
                 </div>
             </div>
             <div class="col-lg-4 col-6 p-1">
-                <div class="photo" style="background-image: url(/images/棟飾/225.jpg);"></div>
+                <div class="photo d-flex justify-content-center" style="background-image: url(./images/隔熱毯/07.jpg);">隔熱毯</div>
             </div>
             <div class="col-lg-4 col-6 p-1">
-                <div class="photo" style="background-image: url(/images/隔熱毯/07.jpg);"></div>
+                <div class="photo d-flex justify-content-center" style="background-image: url(./images/棟飾/225.png);">棟飾</div>
             </div>
+
         </div>
 
         <div class="row justify-content-end">
             <a href="/BM_total" id="sec5-link" class="my-5 pr-3">
-                <h4>LEARN MORE</h4>
+                <span>LEARN MORE</span>
                 <div class="line"></div>
                 <div class="line2"></div>
             </a>
@@ -249,7 +251,7 @@
 </div>
 
 <div id="section06">
-    <div class="container-fluid d-flex align-items-center">
+    <div class="container-fluid d-flex align-items-center bottom_bg_img">
 
         <div class="col-12 col-lg-4 offset-lg-3 text">
             <h2>全家國際理念</h2>
