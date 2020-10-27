@@ -115,7 +115,7 @@
     $('#big_title').html(title);
     $('#big_text').html(sub);
     $('#big_href').attr('href',link_href);
-    console.log("123"+link_href);
+    // console.log("123"+link_href);
 
 
     $('.news_card').hover(function() {
@@ -123,6 +123,7 @@
         var img = $(this).data("newsimg");
         var title = $(this).data("newstitle")
         var sub = $(this).data("newssub");
+        console.log(title);
         // console.log($(this).data("newsid")+'hover');
         console.log(title);
         $('#big_img').attr('src', img);
