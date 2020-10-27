@@ -105,7 +105,7 @@
                         <div class="col-1"><span class="iconify" data-icon="ic:baseline-add-location"
                                 data-inline="false" data-height="20"></span></div>
                         <div class="col-10">台中市北屯區軍福十三路18號</div>
-                        <a href='https://www.google.com/maps/place/406%E5%8F%B0%E4%B8%AD%E5%B8%82%E5%8C%97%E5%B1%AF%E5%8D%80%E8%BB%8D%E7%A6%8F%E5%8D%81%E4%B8%89%E8%B7%AF18%E8%99%9F/@24.170371,120.732549,16z/data=!4m5!3m4!1s0x34691814fd9f46a5:0xb535568adf888c0b!8m2!3d24.170371!4d120.7325492?hl=zh-TW' class="footer_map offset-3 mt-3 d-sm-none d-none d-xl-flex pl-2">GoogleMap</a>
+                        <a href='https://www.google.com/maps/place/406%E5%8F%B0%E4%B8%AD%E5%B8%82%E5%8C%97%E5%B1%AF%E5%8D%80%E8%BB%8D%E7%A6%8F%E5%8D%81%E4%B8%89%E8%B7%AF18%E8%99%9F/@24.170371,120.732549,16z/data=!4m5!3m4!1s0x34691814fd9f46a5:0xb535568adf888c0b!8m2!3d24.170371!4d120.7325492?hl=zh-TW' class="footer_map offset-3 mt-3 d-sm-none d-none d-xl-flex pl-2" style="color:white;">GoogleMap</a>
                     </div>
                     <div class="row d-xl-none d-md-flex">
                         <div class="col-1"><span class="iconify" data-icon="ls:mail" data-inline="false"></span></div>
