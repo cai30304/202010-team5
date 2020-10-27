@@ -147,10 +147,10 @@ img {
   }
 }
 
-header .section01 {
+/* header .section01 {
   padding-top: 50px;
   padding-bottom: 50px;
-}
+} */
 
 @media (max-width: 992px) {
   header .section01 {

@@ -84,12 +84,13 @@
             </div>
         </div>
     </div>
+    <hr>
 </div>
 @endsection
 
 @section('content')
 <div class="section02">
-    <hr>
+    
     <div class="container-fluid py-lg-4 p-0 px-3">
         <div class="row justify-content-center align-items-center m-0 flex-wrap-reverse">
             <div class="photo col-12 col-lg-6" data-aos="animate__fadeOutUp" data-aos-anchor-placement="bottom-bottom"
