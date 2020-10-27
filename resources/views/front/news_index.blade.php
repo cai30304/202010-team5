@@ -7,8 +7,8 @@
 @section('content')
 <div class="section03">
     <div class="container mt-3 mb-4 ml">
-        <div class="d-flex justify-content-between">
-    
+        {{-- <div class="d-flex justify-content-between">
+
             <div class=" d-flex justify-content-center mb-4 mt-3 d-md-none d-lg-block"style="width:586px display:inline-block">
 
                 <div class="box col-6 col-lg-6 col-md-6 col-sm-6 ">
@@ -30,20 +30,35 @@
                     <a href="" id="big_href"class = "text-dark " style="height:100px;font-size:24px;" >learn more</a>
                 </div>
             </div>
-           
 
+
+        </div> --}}
+
+        <h2 class="ml-3">最新消息News</h2>
+
+        <div class="row d-flex mb-4 mt-3 ">
+            <div class="box col-sm-6 col-md-6 col-lg-6 d-none d-lg-block">
+                <img id="big_img" height="300px" width="350px" style="object-fit: cover;" src="https://attach.setn.com/newsimages/2019/02/15/1782324-XXL.jpg"
+                    class="card-img-top container-fluid" alt="...">
+            </div>
+            <div class="box col-md-6 col-lg-6 d-none d-lg-block">
+                <div>
+                    <h2 class="big_title mt-0">標題</h2>
+                    <p id="big_text">內容內容內容內容</p>
+                </div>
+            </div>
         </div>
 
 
         <div class="row text-left d-flex ">
             @foreach($news_list as $news)
-            <div class="col-12 col-lg-4 mb-3 news_card" data-newsid="{{$news->id}}" data-newstitle="{{$news->title}}" data-newssub="{{$news->subtitle}}" data-newsimg="{{$news->info_img}}" data-newshref="/news_index/{{$news->id}}"> 
-            <div class="card m-auto border-secondary " data-aos="fade-up" style="width: 100%;">
+            {{-- <div class="col-12 col-lg-4 mb-3 news_card" data-newsid="{{$news->id}}" data-newstitle="{{$news->title}}" data-newssub="{{$news->subtitle}}" data-newsimg="{{$news->info_img}}" data-newshref="/news_index/{{$news->id}}"> --}}
+            {{-- <div class="card m-auto border-secondary " data-aos="fade-up" style="width: 100%;">
                     <div class="card-header mb-0">
                         {{($news->created_at->format('Y-m-d'))}}
-                        <hr width="200px" size="5px" style="margin:0;">  
+                        <hr width="200px" size="5px" style="margin:0;">
                     </div>
-                     
+
                     <img style="height:246px" src="{{$news->preview_img}}" class="card-img-top" alt="...">
                     <div class="card-body d-flex justify-content-between"style="height:37px;position:relative;">
                         <h5 class="card-title" >{{$news->title}}</h5 >
@@ -51,6 +66,18 @@
                                 <a href="/news_index/{{$news->id}}" class = "text-dark">learn more</a>
                             </div>
                         <!-- <button type="button" class="btn btn-info btn-sm">learn more</button> -->
+                    </div>
+                </div>
+            </div> --}}
+
+            <div class="col-12 col-lg-4 mb-3 news_card" data-newsid="{{$news->id}}" data-newstitle="{{$news->title}}" data-newssub="{{$news->subtitle}}" data-newsimg="{{$news->info_img}}" data-newshref="/news_index/{{$news->id}}"">
+                <div class="card m-auto border-secondary" data-aos="fade-up">
+                    <div class="card-header mb-0">{{($news->created_at->format('Y-m-d'))}}</div>
+                    <img height="246px" style="object-fit: cover;" src="{{$news->preview_img}}"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">{{$news->title}}</h5>
+                        <a href="/news_index/{{$news->id}}" type="button" class="btn btn-info btn-sm">詳細內容</a>
                     </div>
                 </div>
             </div>
