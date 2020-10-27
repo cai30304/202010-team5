@@ -112,7 +112,7 @@
 
     // var innertext = $(this).data("newsinner")
     $('#big_img').attr('src', img);
-    $('#big_title').html(title);
+    $('#big_title').text(title);
     $('#big_text').html(sub);
     $('#big_href').attr('href',link_href);
     // console.log("123"+link_href);
@@ -123,11 +123,11 @@
         var img = $(this).data("newsimg");
         var title = $(this).data("newstitle")
         var sub = $(this).data("newssub");
-        console.log(title);
+        // console.log(title);
         // console.log($(this).data("newsid")+'hover');
-        console.log(title);
+        // console.log(title);
         $('#big_img').attr('src', img);
-        $('#big_title').html(title);
+        $('#big_title').text(title);
         $('#big_text').html(sub);
         // console.log($('#big_img').attr('src'));
     });
