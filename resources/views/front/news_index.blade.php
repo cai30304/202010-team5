@@ -124,6 +124,7 @@
         var title = $(this).data("newstitle")
         var sub = $(this).data("newssub");
         // console.log($(this).data("newsid")+'hover');
+        console.log(title);
         $('#big_img').attr('src', img);
         $('#big_title').html(title);
         $('#big_text').html(sub);
