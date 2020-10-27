@@ -7,13 +7,13 @@
 
 @section('content')
     <div id="error_page">
-        <div class="container-fluid d-flex align-items-center justify-content-center">
-            <div class="row justify-content-center">
-                <div class="title col-6">404</div>
-                <div class="w-100"></div>
-                <div class="content col-6">找不到頁面</div>
-                <div class="w-100"></div>
-                <a href="/"><div class="btn">回到首頁</div></a>
+        <div class="container-fluid d-flex justify-content-center align-items-center" style="background-image: url(/images/長久手Studio②\ \(2\)-compressed.jpg);">
+            <div class="group">
+                <div class="title title-number_none_line">404</div>
+                <div class="content">找不到頁面</div>
+                <div class="row auto-justify-content-around">
+                    <a href="/" class="btn">回到首頁</a>
+                </div>
             </div>
         </div>
     </div>

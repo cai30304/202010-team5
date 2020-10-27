@@ -254,7 +254,7 @@
 <div id="section06">
     <div class="container-fluid d-flex align-items-center bottom_bg_img">
 
-        <div class="col-12 col-lg-4 offset-lg-3 text">
+        <div class="col-12 col-lg-4 offset-lg-3 text" >
             <h2>全家國際理念</h2>
             <span>&emsp;&emsp;&emsp;我們使用無毒的材料維護您的健康，以綠能概念節省能源消耗但又能保持住宅舒適度，強壯的質地具備耐震結構保護您與家人的安全，結合環保材質達成永續利用。</span>
             <div class="row justify-content-end">
