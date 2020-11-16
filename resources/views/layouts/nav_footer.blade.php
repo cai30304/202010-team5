@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>全家國際</title>
 
+    <meta name="description" content="全家節能綠建築，採用日本鋼構工法，無毒、舒適、安全、節能、耐震、環保!讓你用高效的方式擁有自己的房屋!">
+    <meta name="keywords" content="綠建築、無毒、舒適、安全、節能、耐震、環保、DIY房子">
+    
     <link rel="stylesheet" href="/css/nav_footer.css">
 
     <!-- boostrap -->

@@ -90,7 +90,7 @@
 
 @section('content')
 <div class="section02">
-    
+
     <div class="container-fluid py-lg-4 p-0 px-3">
         <div class="row justify-content-center align-items-center m-0 flex-wrap-reverse">
             <div class="photo col-12 col-lg-6" data-aos="animate__fadeOutUp" data-aos-anchor-placement="bottom-bottom"
@@ -272,64 +272,64 @@
 
 @section('js')
 
-<!-- aos.js -->
-<!-- <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> -->
-<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <!-- aos.js -->
+    <!-- <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 
-<script>
-    AOS.init({
-        mirror: false,
-        useClassNames: true,
-        initClassName: false,
-        animatedClassName: 'animate__animated'
-    });
-</script>
+    <script>
+        AOS.init({
+            mirror: false,
+            useClassNames: true,
+            initClassName: false,
+            animatedClassName: 'animate__animated'
+        });
+    </script>
 
-<!-- swiper js -->
-<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <!-- swiper js -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
-<script>
-    var swiper = new Swiper('.swiper-container1', {
-        spaceBetween: 30,
-        centeredSlides: true,
-        autoplay: {
-            delay: 2500,
-            disableOnInteraction: false,
-        },
-        pagination: {
-            el: '.swiper-pagination',
-            clickable: true,
-        },
-        navigation: {
-            nextEl: '.swiper-button-next',
-            prevEl: '.swiper-button-prev',
-        },
-    });
+    <script>
+        var swiper = new Swiper('.swiper-container1', {
+            spaceBetween: 30,
+            centeredSlides: true,
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+            },
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+        });
 
-    // Initialize Swiper
+        // Initialize Swiper
 
-    var galleryThumbs = new Swiper('.gallery-thumbs', {
-        spaceBetween: 10,
-        slidesPerView: 4,
-        loop: true,
-        freeMode: true,
-        loopedSlides: 5, //looped slides should be the same
-        watchSlidesVisibility: true,
-        watchSlidesProgress: true,
-    });
-    var galleryTop = new Swiper('.gallery-top', {
-        spaceBetween: 10,
-        loop: true,
-        loopedSlides: 5, //looped slides should be the same
-        navigation: {
-            nextEl: '.swiper-button-next',
-            prevEl: '.swiper-button-prev',
-        },
-        thumbs: {
-            swiper: galleryThumbs,
-        },
-    });
-</script>
+        var galleryThumbs = new Swiper('.gallery-thumbs', {
+            spaceBetween: 10,
+            slidesPerView: 4,
+            loop: true,
+            freeMode: true,
+            loopedSlides: 5, //looped slides should be the same
+            watchSlidesVisibility: true,
+            watchSlidesProgress: true,
+        });
+        var galleryTop = new Swiper('.gallery-top', {
+            spaceBetween: 10,
+            loop: true,
+            loopedSlides: 5, //looped slides should be the same
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            thumbs: {
+                swiper: galleryThumbs,
+            },
+        });
+    </script>
 
 <!-- <script>
     $('.btn_news').click(function() {
