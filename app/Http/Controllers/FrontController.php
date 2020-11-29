@@ -116,7 +116,7 @@ class FrontController extends Controller
     public function delieverContactUsData(Request $request)
     {
         // dd("deliever_contacy_us");
-        // dd($request->all());
+        dd($request->all());
         ContactMessage::create($request->all());
         return redirect("/contact_us");
     }

@@ -140,7 +140,7 @@
                         <div class="form-group row mb-lg-5">
                             <label for="email" class="col-sm-2 col-form-label">E-mail</label>
                             <div class="col-sm-10">
-                                <input type="text" class="form-control" name="email" value="" id="email">
+                                <input type="mail" class="form-control" name="email" value="" id="email">
                             </div>
                         </div>
                         <div class="form-group row mb-lg-5">
