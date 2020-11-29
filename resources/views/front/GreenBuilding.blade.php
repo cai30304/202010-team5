@@ -123,30 +123,30 @@
         <img class="d-lg-none" src="images/GreenBuilding/VS-ST.png" alt="">
 
         <div class="row my-50 ">
-            <div class="col-lg-5 md-center" data-aos="fade-right">
+            <div class="col-lg-5 md-center" data-aos="fade-down">
                 <h3 class="text-right">質地較輕</h3>
             </div>
-            <div class="col-lg-7 md-center" data-aos="fade-left">重量少於混凝土的結構的30%至50%</div>
+            <div class="col-lg-7 md-center" data-aos="fade-down">重量少於混凝土的結構的30%至50%</div>
 
-            <div class="col-lg-5 md-center" data-aos="fade-right">
+            <div class="col-lg-5 md-center" data-aos="fade-down">
                 <h3 class="text-right">安全耐震</h3>
             </div>
-            <div class="col-lg-7 md-center" data-aos="fade-left">耐震性能大於一般的鋼筋混凝土建築</div>
+            <div class="col-lg-7 md-center" data-aos="fade-down">耐震性能大於一般的鋼筋混凝土建築</div>
 
-            <div class="col-lg-5 md-center" data-aos="fade-right">
+            <div class="col-lg-5 md-center" data-aos="fade-down">
                 <h3 class="text-right">延伸性高</h3>
             </div>
-            <div class="col-lg-7 md-center" data-aos="fade-left">相較於一般的鋼筋混凝土建築，可增加建築有效面積8%</div>
+            <div class="col-lg-7 md-center" data-aos="fade-down">相較於一般的鋼筋混凝土建築，可增加建築有效面積8%</div>
 
-            <div class="col-lg-5 md-center" data-aos="fade-right">
+            <div class="col-lg-5 md-center" data-aos="fade-down">
                 <h3 class="text-right">環保節能</h3>
             </div>
-            <div class="col-lg-7 md-center" data-aos="fade-left">施工安全性較高，可減少約30%二氧化碳排放，亦可回收運用</div>
+            <div class="col-lg-7 md-center" data-aos="fade-down">施工安全性較高，可減少約30%二氧化碳排放，亦可回收運用</div>
 
-            <div class="col-lg-5 md-center" data-aos="fade-right">
+            <div class="col-lg-5 md-center" data-aos="fade-down">
                 <h3 class="text-right">成本較低</h3>
             </div>
-            <div class="col-lg-7 md-center" data-aos="fade-left">建築可減少對砂石的需求、施工時期短、亦可減少勞動成本</div>
+            <div class="col-lg-7 md-center" data-aos="fade-down">建築可減少對砂石的需求、施工時期短、亦可減少勞動成本</div>
         </div>
     </section>
 
@@ -371,13 +371,34 @@
             <img src="/images/GreenBuilding/擴增建法.png" alt="">
         </div>
     </section>
+
+    <!-- 7 環保回收再利用  -->
+    <section class="container">
+        <div class="row">
+            <div class="col-12 d-flex " data-aos="fade-down">
+                <!-- 文字區塊 -->
+                <div class="text-bottom " data-aos="fade-down">
+                    <h3 class="title-number">07</h3>
+                </div>
+
+                <div class="section-title">
+                    <h2>環保回收再利用</h2>
+                    <h4>環保概念、綠能永續</h4>
+                    <p>&emsp;&emsp;&emsp;全球對於環保觀念重視與日俱增，傳統的RC工法所已經不符合時代的要求了，因為RC工法所使用過的建材幾乎是無法回收再利用。全家節能綠建築採用的建築材料約85%以上都是屬於可以回收再利用的材質，是屬於節能減碳的環保綠建築。</p>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
 @endsection
 
 @section('js')
 
     {{-- Facebook 影片js --}}
     <script async defer src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.2"></script>
-    
+
     {{-- AOS --}}
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>

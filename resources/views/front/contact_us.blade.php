@@ -69,7 +69,16 @@
                             <div class="col-12 d-flex info">
                                 <div class="icon"><span class="iconify" data-icon="ls:mail" data-inline="false"></span><i
                                         class="map"></i></div>
-                                <div class="text col-11 ">info@famihouse.com.tw</div>
+                                <a class="text col-11" href="mailto:info@famihouse.com.tw">info@famihouse.com.tw</a>
+                            </div>
+                        </div>
+
+
+                        <div class="info_grp col-12">
+                            <div class="address_title col-2 p-0">Line</div>
+                            <div class="col-12 d-flex info">
+                                <div class="icon"><span class="iconify" data-icon="cib:line" data-inline="false" data-width="20" data-height="20"></span><i class="map"></i></div>
+                                <div class="text col-11 ">hawk0506</div>
                             </div>
                         </div>
 
@@ -78,7 +87,7 @@
                             <div class="col-12 d-flex info">
                                 <div class="icon"><span class="iconify" data-icon="ant-design:phone-outlined"
                                         data-inline="false" data-height="24"></span><i class="map"></i></div>
-                                <div class="text col-11 ">04-22392834<br>04-23016970</div>
+                                <div class="text col-11 ">04-22392834<br>04-22392180</div>
                             </div>
                         </div>
                         <!-- <div class="btn_contact_us m-auto">聯絡我們</div> -->

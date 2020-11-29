@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>全家國際</title>
 
+    <meta name="description" content="全家節能綠建築，採用日本鋼構工法，無毒、舒適、安全、節能、耐震、環保!讓你用高效的方式擁有自己的房屋!">
+    <meta name="keywords" content="綠建築、無毒、舒適、安全、節能、耐震、環保、DIY房子">
+
     <link rel="stylesheet" href="/css/nav_footer.css">
 
     <!-- boostrap -->
@@ -79,18 +82,22 @@
                         <div class="footer_map offset-5 mt-3 d-sm-none d-none d-xl-flex pl-2">GoogleMap</div>
                     </div>
                     <div class="row d-xl-none d-lg-none d-md-none">
-                        <div class="col-1"><span class="iconify" data-icon="ls:mail" data-inline="false"></span></div>
-                        <div class="footer_email col-10">info@famihouse.com.tw</div>
+                        <div class="col-1" style="line-height: 40px"><span class="iconify" data-icon="ls:mail" data-inline="false"></span></div>
+                        <a class="footer_email col-10" href="mailto:info@famihouse.com.tw">info@famihouse.com.tw</a>
                     </div>
                 </div>
                 <div class="d-xl-none d-lg-none d-md-none col-sm-11 col-12">
                     <div class="row">
-                        <div class="col-1"><span class="iconify" data-icon="ant-design:phone-outlined"
-                                data-inline="false" data-height="24"></span></div>
-                        <div class="footer_phone col-10">04-22392834<br>04-23016970</div>
+                        <div class="col-1"><span class="iconify" data-icon="cib:line" data-inline="false" data-width="15" data-height="15"></span></span></div>
+                        <div class="footer_phone col-10">hawk0506</div>
                     </div>
                     <div class="row">
-                        <div class="col-1">©</div>
+                        <div class="col-1"><span class="iconify" data-icon="ant-design:phone-outlined"
+                                data-inline="false" data-height="18"></span></div>
+                        <div class="footer_phone col-10">04-22392834<br>04-22392180</div>
+                    </div>
+                    <div class="row">
+                        <div class="col-1">&copy; </div>
                         <div class="footer_phone col-10">全家國際有限公司</div>
                     </div>
                 </div>
@@ -98,7 +105,7 @@
 
             <div class="row align-items-center justify-content-center">
                 <div class="footer_logo col-xl-5 col-lg-4 col-md-4 d-none d-md-block">
-                    ©全家國際有限公司
+                    &copy;全家國際有限公司
                 </div>
                 <div class="footer_address col-lg-4 col-md-5 d-none d-md-block d-xl-block flex-wrap">
                     <div class="row">
@@ -108,19 +115,24 @@
                         <a href='https://www.google.com/maps/place/406%E5%8F%B0%E4%B8%AD%E5%B8%82%E5%8C%97%E5%B1%AF%E5%8D%80%E8%BB%8D%E7%A6%8F%E5%8D%81%E4%B8%89%E8%B7%AF18%E8%99%9F/@24.170371,120.732549,16z/data=!4m5!3m4!1s0x34691814fd9f46a5:0xb535568adf888c0b!8m2!3d24.170371!4d120.7325492?hl=zh-TW' class="footer_map offset-3 mt-3 d-sm-none d-none d-xl-flex pl-2" style="color:white;">GoogleMap</a>
                     </div>
                     <div class="row d-xl-none d-md-flex">
-                        <div class="col-1"><span class="iconify" data-icon="ls:mail" data-inline="false"></span></div>
-                        <div class="footer_email col-9">info@famihouse.com.tw</div>
+                        <div class="col-1" style="line-height: 40px"><span class="iconify" data-icon="ls:mail" data-inline="false"></span></div>
+                        <a class="footer_email col-9" href="mailto:info@famihouse.com.tw">info@famihouse.com.tw</a>
                     </div>
+
                 </div>
                 <div class="col-lg-3 col-md-3 d-none d-md-block d-xl-block">
                     <div class="row  d-sm-none d-none d-xl-flex">
-                        <div class="col-1"><span class="iconify" data-icon="ls:mail" data-inline="false"></span></div>
-                        <div class="footer_email col-10">info@famihouse.com.tw</div>
+                        <div class="col-1" style="line-height: 40px"><span class="iconify" data-icon="ls:mail" data-inline="false"></span></div>
+                        <a class="footer_email col-10" href="mailto:info@famihouse.com.tw">info@famihouse.com.tw</a>
+                    </div>
+                    <div class="row">
+                        <div class="col-1"><span class="iconify" data-icon="cib:line" data-inline="false" data-width="15" data-height="15"></span></span></div>
+                        <div class="footer_phone col-10">hawk0506</div>
                     </div>
                     <div class="row">
                         <div class="col-1"><span class="iconify" data-icon="ant-design:phone-outlined"
-                                data-inline="false" data-height="24"></span></div>
-                        <div class="footer_phone col-10">04-22392834<br>04-23016970</div>
+                                data-inline="false" data-height="20"></span></div>
+                        <div class="footer_phone col-10">04-22392834<br>04-22392180</div>
                     </div>
                 </div>
 
