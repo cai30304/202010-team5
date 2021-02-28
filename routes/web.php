@@ -32,7 +32,7 @@ Route::get('/news_index','FrontController@news_index');
 Route::get('/news_index/{news_id}','FrontController@news_info');
 Route::get('/about_us','FrontController@about_us');
 Route::post('/contact_us','FrontController@delieverContactUsData');
-Route::get('/contact_us','FrontController@contact_us');
+Route::get('/contact_us','FrontController@contact_us');//Show contact us page.
 
 //Start up auth
 // Auth::routes(['register'=>false]); //Close register system

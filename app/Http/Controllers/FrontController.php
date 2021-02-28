@@ -68,12 +68,12 @@ class FrontController extends Controller
             foreach($products as $product_single){
                array_push( $arrMaterialList, DB::table('material_images')->where('materail_id',$product_single->material_id)->get());
             }
-            // dd($arrMaterialList);    
+            // dd($arrMaterialList);
             return view('front/BM_info_multi',compact('product_types','products','material_images','arrMaterialList'));
         }
     }
 
-   
+
 
     public function BM_total()
     {
@@ -105,7 +105,7 @@ class FrontController extends Controller
     {
         return view('front/about_us');
     }
-
+    // Show contact us page.
     public function contact_us()
     {
         $contact_service_list = ContactService::get();
@@ -116,7 +116,7 @@ class FrontController extends Controller
     public function delieverContactUsData(Request $request)
     {
         // dd("deliever_contacy_us");
-        dd($request->all());
+        // dd($request->all());
         ContactMessage::create($request->all());
         return redirect("/contact_us");
     }
