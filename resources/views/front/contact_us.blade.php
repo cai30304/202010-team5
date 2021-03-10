@@ -131,7 +131,7 @@
                                 客戶姓名
                                 <span class="ml-1 text-danger font-weight-bold">*</span></label>
                             <div class="col-sm-10">
-                                <input type="text" class="form-control" name="user_name" value="" id="user_name" require>
+                                <input type="text" class="form-control" name="user_name" value="" id="user_name" required>
                             </div>
                         </div>
                         <div class="form-group row mb-lg-5">
@@ -171,7 +171,7 @@
                                 <span class="ml-1 text-danger font-weight-bold">*</span></label>
                             </label>
                             <div class="col-sm-10">
-                                <input type="text" class="form-control" name="subject" value="" id="subject">
+                                <input type="text" class="form-control" name="subject" value="" id="subject" required>
                             </div>
                         </div>
                         <div class="form-group row">
@@ -181,7 +181,7 @@
                             </label>
                             <div class="col-sm-10">
                                 <textarea class="form-control" name="inner_text" id="inner_text" cols="30"
-                                    rows="10"></textarea>
+                                    rows="10"required></textarea>
                             </div>
                         </div>
                         <div class="row py-5">
