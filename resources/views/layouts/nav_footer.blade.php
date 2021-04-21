@@ -18,6 +18,11 @@
     @yield('css')
 
 </head>
+
+<?php
+    $productTypes = app('App\Http\Controllers\Functions')->getProductTypes();
+?>
+
 <body>
     <div id="bnav" class="container-fluid p-0">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -40,12 +45,15 @@
                             日本建材
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item" href="/ProductType/1">陶板達人</a>
+                            @foreach ($productTypes as $productType)
+                                <a class="dropdown-item" href="/ProductType/{{$productType->id}}">{{$productType->type_name}}</a>
+                            @endforeach
+                            <!-- <a class="dropdown-item" href="/ProductType/1">陶板達人</a>
                             <a class="dropdown-item" href="/ProductType/2">東濃檜木</a>
                             <a class="dropdown-item" href="/ProductType/3">竹地板</a>
                             <a class="dropdown-item" href="/ProductType/4">屋瓦</a>
                             <a class="dropdown-item" href="/ProductType/5">隔熱毯</a>
-                            <a class="dropdown-item" href="/ProductType/6">棟飾</a>
+                            <a class="dropdown-item" href="/ProductType/6">棟飾</a> -->
                         </div>
                     </li>
                     <li class="nav-item">
