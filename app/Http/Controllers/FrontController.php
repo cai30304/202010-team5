@@ -13,7 +13,7 @@ use App\ProductTypes;
 use App\Products;
 use App\Material;
 use App\MaterialImages;
-
+use App\Http\Functions;
 
 class FrontController extends Controller
 {
@@ -36,8 +36,13 @@ class FrontController extends Controller
             ]);
             $news = News::find(1);
             // dd($news);
+            
         }
         // dd($news);
+        // $productTypes = app('App\Http\Controllers\Functions')->getProductTypes();
+        // // nav中材料分類本想在各個controller中呼叫，但後面之直接在nav中的php直接呼叫，在nav中呼叫只需一次，故目前在nav中呼叫。
+        // dd($productTypes);
+        
         return view('front/index',compact('banner_images','news'));
     }
 
@@ -60,7 +65,7 @@ class FrontController extends Controller
         $product = $products[0];
         $material_images = MaterialImages::where('materail_id',$product->material_id)->get();
         // dd($material_images);
-        $arrMaterialList = array();
+        $arrMaterialList = array();//Initiallize an empty array.
 
         if(count(DB::table('products')->where('type_id',$type)->get())==1)
             return view('front/BM_info',compact('product_types','product','material_images'));
