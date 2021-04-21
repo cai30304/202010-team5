@@ -19,7 +19,7 @@ class AdminController extends Controller
             }
             $name = strval(time().md5(rand(100, 200)));
             $ext = explode('.', $_FILES['file']['name']);
-            $filename = $name . '.' . $ext[1];
+            $filename = $name . '.' . $ext[1]; //取出副檔名
             //防呆：資料夾不存在時將會自動建立資料夾，避免錯誤
             if( ! is_dir('upload/')){
                 mkdir('upload/');
@@ -30,7 +30,7 @@ class AdminController extends Controller
             }
             $destination = public_path().'/upload/img/'. $filename; //change this directory
             $location = $_FILES["file"]["tmp_name"];
-            move_uploaded_file($location, $destination);
+            move_uploaded_file($location, $destination); //從tmp搬移至指定路徑
             echo "/upload/img/".$filename;//change this URL
         }
         exit;
